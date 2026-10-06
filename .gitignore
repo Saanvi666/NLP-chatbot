@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# IDE
+.vscode/
+
+# Generated Python/model files
+*.pkl
+
+# Optional local files
+*.db

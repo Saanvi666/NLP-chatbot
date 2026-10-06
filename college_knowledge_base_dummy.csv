@@ -1,0 +1,161 @@
+id,category,question,answer
+1,Admission,How can I apply for admission?,Students can apply for admission through the college admission portal by completing the online application form.
+2,Admission,What is the admission process?,"The admission process includes online registration, document submission, merit evaluation, and final fee payment."
+3,Admission,How do I get admission to the college?,"Admission is based on eligibility requirements, submission of the application, merit evaluation, and completion of the admission formalities."
+4,Admission,When does admission start?,Admissions generally begin in June for the upcoming academic year.
+5,Admission,When can I register for admission?,Online registration usually opens in June and remains available during the announced admission period.
+6,Admission,Is there an online admission form?,"Yes, students can complete the admission application form through the college admission portal."
+7,Admission,What are the eligibility criteria?,Applicants must satisfy the academic eligibility requirements specified for their chosen undergraduate program.
+8,Admission,Can I apply for more than one course?,Students may apply for multiple eligible programs subject to the college admission rules.
+9,Admission,Is admission based on merit?,"Yes, undergraduate admissions are generally processed according to eligibility and merit criteria."
+10,Admission,Where can I check my admission status?,Applicants can check their admission status through the college admission portal using their application details.
+11,Admission,What happens after submitting the application?,"After submission, the application is reviewed and eligible students are considered during the merit and admission process."
+12,Admission,Can I cancel my admission?,Admission cancellation is possible according to the college cancellation policy and applicable deadlines.
+13,Admission,Is there an admission help desk?,"Yes, students can contact the college admission help desk for assistance with applications and admission procedures."
+14,Admission,What should I do if I make a mistake in my application?,Students should contact the admission help desk to check whether the submitted application can be corrected.
+15,Admission,Do I need to visit the college for admission?,"Most initial admission steps can be completed online, while document verification or other formalities may require a college visit."
+16,Courses & Streams,Which engineering branches are available?,"The college offers Computer Engineering, Information Technology, Electronics Engineering, and Mechanical Engineering."
+17,Courses & Streams,What courses does the college offer?,"The college offers undergraduate engineering programs in Computer Engineering, Information Technology, Electronics Engineering, and Mechanical Engineering."
+18,Courses & Streams,Is Computer Engineering available?,"Yes, Computer Engineering is one of the undergraduate programs offered by the college."
+19,Courses & Streams,Does the college have an IT branch?,"Yes, the college offers an Information Technology undergraduate program."
+20,Courses & Streams,Is Electronics Engineering offered?,"Yes, Electronics Engineering is available as an undergraduate program."
+21,Courses & Streams,Is Mechanical Engineering available?,"Yes, Mechanical Engineering is offered by the college."
+22,Courses & Streams,How many engineering branches are there?,The college currently offers four major undergraduate engineering branches.
+23,Courses & Streams,What is the duration of the engineering degree?,The undergraduate engineering degree is normally completed over four academic years.
+24,Courses & Streams,Can I change my branch after admission?,"Branch changes may be possible subject to college rules, academic performance, seat availability, and applicable regulations."
+25,Courses & Streams,Which branch is best for software careers?,Computer Engineering and Information Technology provide strong foundations for software and technology careers.
+26,Courses & Streams,Does the college offer undergraduate programs?,"Yes, the college offers undergraduate engineering programs."
+27,Courses & Streams,Where can I find the course syllabus?,Students can access the syllabus through the academic section of the college website or student portal.
+28,Courses & Streams,Are there practical subjects in engineering?,"Yes, engineering programs include practical sessions, laboratories, and project work along with theory subjects."
+29,Courses & Streams,Are electives available?,"Yes, students can choose elective subjects according to the curriculum and academic rules."
+30,Courses & Streams,Does the college provide project work?,"Yes, students complete academic projects as part of their engineering curriculum."
+31,Fees,What is the annual fee?,"The annual tuition fee for undergraduate programs is approximately ₹85,000."
+32,Fees,What is the fee structure?,"The approximate annual tuition fee for undergraduate programs is ₹85,000, excluding any separately applicable charges."
+33,Fees,How much are the college fees?,"The undergraduate tuition fee is approximately ₹85,000 per academic year."
+34,Fees,How can I pay my fees?,Students can pay fees online through the college payment portal or through the accounts office.
+35,Fees,Can I pay fees online?,"Yes, the college provides an online fee payment facility through its payment portal."
+36,Fees,Can fees be paid in installments?,Installment payment may be available subject to the college's fee payment rules and approval.
+37,Fees,Is there a separate examination fee?,Examination-related charges may be collected separately according to the applicable academic rules.
+38,Fees,Is there a laboratory fee?,Laboratory or other academic charges may be included in or added to the applicable fee structure depending on the program.
+39,Fees,Where can I see the latest fee details?,Students should check the official fee notice or contact the accounts office for the latest applicable charges.
+40,Fees,What happens if I miss the fee deadline?,Late payment may attract additional charges or other consequences according to college rules.
+41,Fees,Can I get a fee receipt?,"Yes, students receive a fee receipt after successful payment."
+42,Fees,Who should I contact about fee problems?,Students should contact the college accounts office for fee-related questions or payment issues.
+43,Fees,Is the admission fee included in tuition?,Admission-related charges may be separate from annual tuition and should be checked in the current fee notice.
+44,Fees,Are there scholarships for students?,Eligible students may apply for scholarships according to the available scholarship schemes and eligibility requirements.
+45,Fees,Can I get a refund after cancellation?,"Refunds, if applicable, are processed according to the college cancellation and refund policy."
+46,Examinations,When are the semester exams?,Semester examination dates are announced in the official examination timetable published by the college.
+47,Examinations,Where can I find the exam timetable?,"Students can find the examination timetable through the college website, student portal, or examination notice board."
+48,Examinations,When will my semester exam start?,The semester exam start date depends on the official examination schedule released for that semester.
+49,Examinations,How can I check my exam schedule?,Students should check the latest examination timetable on the college portal or notice board.
+50,Examinations,What is the passing requirement?,Students must meet the minimum passing requirements specified by the university and the applicable course regulations.
+51,Examinations,What happens if I fail a subject?,Students who do not pass a subject may be required to appear for the applicable supplementary or repeat examination.
+52,Examinations,Can I apply for revaluation?,Students may apply for revaluation when the university provides a revaluation facility for the relevant examination.
+53,Examinations,How do I get my exam result?,Examination results are published through the university or college result portal.
+54,Examinations,What should I carry to the exam?,Students should carry their valid examination identity card or hall ticket and follow the instructions provided with the exam timetable.
+55,Examinations,When are internal exams conducted?,Internal examinations are scheduled by the college according to the academic calendar and department timetable.
+56,Examinations,Are practical exams compulsory?,Practical examinations are compulsory where they are part of the prescribed curriculum.
+57,Examinations,What is a hall ticket?,A hall ticket is an official examination document that permits an eligible student to appear for the examination.
+58,Examinations,How can I download my hall ticket?,Eligible students can download the hall ticket through the student or examination portal when it is released.
+59,Examinations,Can I miss an examination?,Students should attend all scheduled examinations; absence is handled according to university and college examination rules.
+60,Examinations,Who handles examination queries?,"Students can contact the examination cell for questions about timetables, hall tickets, results, and examination procedures."
+61,Academic Calendar,When does the academic year begin?,The academic year generally begins in July after the admission process is completed.
+62,Academic Calendar,When does the semester start?,Semester start dates are published in the official academic calendar.
+63,Academic Calendar,Where can I find the academic calendar?,Students can find the academic calendar on the college website or student portal.
+64,Academic Calendar,When are the holidays?,College holidays are listed in the official academic calendar issued for the academic year.
+65,Academic Calendar,When does the first semester end?,The first semester end date is specified in the academic calendar for the relevant academic year.
+66,Academic Calendar,When does the second semester begin?,The second semester normally begins after the winter break according to the academic calendar.
+67,Academic Calendar,When are vacations?,Vacation periods are announced in the official academic calendar.
+68,Academic Calendar,Are there college working days on Saturday?,Saturday working arrangements depend on the department timetable and the academic calendar.
+69,Academic Calendar,When are orientation programs held?,Orientation programs are generally conducted at the beginning of the academic year for new students.
+70,Academic Calendar,When does the admission session begin?,The admission session generally begins around June and academic activities follow according to the published calendar.
+71,Documents,What documents are required for admission?,"Students generally need academic certificates, identity proof, photographs, address proof, and other documents specified in the admission notice."
+72,Documents,Which documents should I bring for admission?,Applicants should bring the original and required copies of the documents listed in the admission checklist.
+73,Documents,Do I need my marksheet for admission?,"Yes, relevant academic marksheets are required for admission verification."
+74,Documents,Is an identity proof required?,"Yes, a valid identity document is generally required during admission and verification."
+75,Documents,How many photographs should I submit?,Students should provide the number of recent passport-size photographs specified in the admission checklist.
+76,Documents,Do I need a domicile certificate?,A domicile certificate may be required for applicable admission categories and should be submitted when specified.
+77,Documents,Do I need a transfer certificate?,A transfer or leaving certificate may be required depending on the student's previous institution and admission requirements.
+78,Documents,What is document verification?,Document verification is the process of checking submitted certificates and information against the admission application.
+79,Documents,Can I submit photocopies of documents?,"Students may need to submit photocopies along with originals for verification, according to the admission checklist."
+80,Documents,What if one document is missing?,Students should contact the admission office immediately to ask whether the missing document can be submitted later.
+81,Documents,Where do I submit admission documents?,Admission documents are submitted through the online portal or at the designated admission office as instructed.
+82,Documents,Do I need my migration certificate?,"A migration certificate may be required for students coming from another university or education system, depending on the applicable rules."
+83,Documents,Do I need a caste certificate?,Students applying under a reserved category may need to submit a valid category certificate as required by the admission rules.
+84,Documents,What documents are needed for scholarship applications?,"Scholarship applications may require academic records, identity proof, bank details, income or category documents, and other documents specified by the scheme."
+85,Documents,Can documents be uploaded online?,"Yes, documents required during online admission can be uploaded through the admission portal when the option is provided."
+86,Facilities,What facilities does the college have?,"The college provides classrooms, laboratories, a library, computer facilities, sports facilities, and student support services."
+87,Facilities,Does the college have a library?,"Yes, the college has a library with academic books, reference material, and study resources."
+88,Facilities,Is Wi-Fi available on campus?,Campus Wi-Fi is available in designated areas for students and staff.
+89,Facilities,Does the college have computer labs?,"Yes, the college has computer laboratories for academic and practical work."
+90,Facilities,Are sports facilities available?,"Yes, students can access sports facilities provided by the college."
+91,Facilities,Is there a cafeteria?,"Yes, the college has a cafeteria serving food and refreshments during operating hours."
+92,Facilities,Does the college have a medical facility?,"Basic medical support is available on campus, with students directed to appropriate healthcare services when necessary."
+93,Facilities,Are there study rooms?,Students can use designated library and academic spaces for individual study.
+94,Facilities,Does the college have laboratories?,"Yes, engineering departments have laboratories relevant to their academic programs."
+95,Facilities,Is there a student common room?,A student common area is available for students to use during permitted hours.
+96,Facilities,Are accessibility facilities available?,The college provides accessibility support and facilities in designated areas to assist students with mobility needs.
+97,Facilities,Can students access the library after classes?,Library access is available during the library's published operating hours.
+98,Facilities,Does the college have an auditorium?,"Yes, the college has an auditorium used for academic, cultural, and student activities."
+99,Facilities,Are extracurricular activities available?,"Yes, students can participate in cultural, technical, sports, and other extracurricular activities."
+100,Facilities,Are there laboratories for every branch?,Departments provide laboratories relevant to their respective programs and practical requirements.
+101,Placements,Does the college provide placement assistance?,"Yes, the college placement cell coordinates recruitment activities and provides career support to eligible students."
+102,Placements,How does the placement process work?,"The placement process generally includes company registration, eligibility screening, tests or interviews, and final selection."
+103,Placements,Which companies visit the college?,"Companies from technology, engineering, consulting, finance, and other sectors may participate in campus recruitment drives."
+104,Placements,Is there a placement cell?,"Yes, the college has a placement cell that coordinates placement and career development activities."
+105,Placements,When do placements start?,Campus placement activities generally begin during the later years of the undergraduate program according to the placement calendar.
+106,Placements,Who is eligible for placements?,"Placement eligibility depends on company requirements, academic criteria, and the rules communicated by the placement cell."
+107,Placements,Are internships provided?,"The placement and training cell supports students in finding internship opportunities, subject to availability and eligibility."
+108,Placements,Does the college conduct aptitude training?,"Yes, career preparation may include aptitude, technical, communication, and interview training."
+109,Placements,Are there technical interviews?,Many recruitment processes include technical interviews depending on the company and role.
+110,Placements,Are there campus recruitment drives?,"Yes, eligible students can participate in campus recruitment drives organized with participating companies."
+111,Placements,Can students apply for off-campus jobs?,"Yes, students may independently apply for off-campus opportunities while following college placement policies."
+112,Placements,Where can I find placement notices?,"Placement notices are shared through the placement cell, student communication channels, and the college portal."
+113,Placements,Does the college offer career guidance?,"Yes, the placement cell provides career guidance and preparation support for students."
+114,Placements,Is resume preparation support available?,Students may receive resume-building and interview-preparation guidance through placement activities.
+115,Placements,Can final-year students participate in placements?,Eligible final-year students can participate in placement drives according to company and college eligibility rules.
+116,Transportation,Does the college provide bus transportation?,The college provides bus transportation on selected routes for students and staff.
+117,Transportation,Are college buses available?,"Yes, college buses operate on designated routes according to the transportation schedule."
+118,Transportation,What are the college bus routes?,Bus routes cover selected areas around the city; students can check the latest route list with the transport office.
+119,Transportation,How can I use the college bus?,Students need to register for the transport service and follow the transport office's pass and route rules.
+120,Transportation,Is there a bus pass?,"Yes, students using college transportation may need a valid transport pass."
+121,Transportation,How much does college transport cost?,Transportation charges depend on the selected route and are published by the transport office.
+122,Transportation,Where can I get the bus timetable?,The latest bus timetable is available from the transport office and college communication channels.
+123,Transportation,Does the bus operate every day?,College buses generally operate on scheduled academic working days.
+124,Transportation,Can first-year students use the bus?,"Yes, first-year students can use college transportation after completing the required registration."
+125,Transportation,Is public transport available near the college?,"The college is accessible through local public transportation, and students can check nearby routes according to their location."
+126,Transportation,Who should I contact about bus issues?,"Students should contact the college transport office for route, pass, timing, or bus-related issues."
+127,Transportation,Can I change my bus route?,Route changes may be permitted subject to availability and transport office rules.
+128,Transportation,Is transport registration required?,"Yes, students generally need to register before using the college bus service."
+129,Transportation,Are bus timings fixed?,Bus timings follow the published transport schedule but may be changed when necessary.
+130,Transportation,Does the college provide transportation during exams?,Special transportation arrangements during examinations depend on the examination schedule and transport plan.
+131,Contact & General Information,What is the college address?,"Sunrise Institute of Technology is located at 25 Knowledge Park Road, Navi Mumbai, Maharashtra."
+132,Contact & General Information,Where is the college located?,"The college is located in Knowledge Park, Navi Mumbai, Maharashtra."
+133,Contact & General Information,How can I contact the college?,"Students can contact the college through the main office phone number, official email, or contact form."
+134,Contact & General Information,What is the college phone number?,The main college office can be contacted at 022-4567-8900.
+135,Contact & General Information,What is the college email address?,The general college email address is info@sunriseit.example.
+136,Contact & General Information,What are the college office timings?,"The general administrative office operates from Monday to Friday, 9:30 AM to 5:00 PM."
+137,Contact & General Information,Is the college open on Saturday?,Administrative services are generally available Monday to Friday; Saturday availability depends on the department and scheduled activities.
+138,Contact & General Information,How can I contact the admission office?,Students can contact the admission office through the college admission help desk or main office.
+139,Contact & General Information,How can I contact the examination cell?,Students can contact the examination cell through the college office or the examination section of the student portal.
+140,Contact & General Information,How can I contact the placement cell?,Students can contact the placement cell through the placement office and official student communication channels.
+141,Contact & General Information,Where is the administrative office?,The administrative office is located in the main college building.
+142,Contact & General Information,Where can I get general college information?,"General college information is available through the college website, student portal, notice board, and administrative office."
+143,Contact & General Information,Does the college have an official website?,"Yes, the college maintains an official website containing academic, admission, examination, and contact information."
+144,Contact & General Information,Who should I contact for general questions?,Students can contact the main administrative office for general questions or assistance.
+145,Contact & General Information,Where can I find college notices?,"Important notices are published on the college website, student portal, notice boards, and official communication channels."
+146,Admission,"I want to join the college, what should I do?",Students can apply for admission through the college admission portal by completing the online application form.
+147,Admission,What do I have to do to enroll?,"Enrollment requires completing the application, meeting eligibility requirements, submitting documents, and completing the admission formalities."
+148,Fees,How much money do I need to pay every year?,"The approximate annual tuition fee for undergraduate programs is ₹85,000."
+149,Fees,Can I pay my college fees through UPI?,Online payment methods supported by the college payment portal can be used for fee payment.
+150,Examinations,Where do I see when my papers are?,Students should check the latest examination timetable on the college portal or notice board.
+151,Examinations,What if I don't clear one subject?,Students who do not pass a subject may need to appear for the applicable supplementary or repeat examination.
+152,Courses & Streams,What branches can I choose from?,"The college offers Computer Engineering, Information Technology, Electronics Engineering, and Mechanical Engineering."
+153,Documents,What papers are needed to take admission?,"Applicants need the academic, identity, photograph, address, and other documents specified in the admission checklist."
+154,Facilities,Can I use the library for studying?,"Yes, students can use the college library and designated study spaces during library operating hours."
+155,Placements,Will the college help me get a job?,"The placement cell supports eligible students through campus recruitment, career guidance, training, and interview preparation."
+156,Transportation,How do I travel to college by the college bus?,Students can use college buses by registering for the transport service and following the assigned route and pass rules.
+157,Academic Calendar,When will college reopen after vacation?,The reopening date is announced in the official academic calendar.
+158,Contact & General Information,Where do I ask if I don't know which department to contact?,"Students can contact the main administrative office, which can direct them to the appropriate department."
+159,Facilities,Does the college have a place to eat?,"Yes, the college has a cafeteria serving food and refreshments during operating hours."
+160,Placements,Can I get internship help from the college?,"The placement and training cell supports students in finding internship opportunities, subject to availability and eligibility."

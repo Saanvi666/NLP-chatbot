@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College AI Assistant</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #212121;
+            color: #ececec;
+            height: 100vh;
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background: #171717;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #303030;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .new-chat {
+            background: #2f2f2f;
+            border: 1px solid #444;
+            color: #fff;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .new-chat:hover {
+            background: #3a3a3a;
+        }
+
+        .sidebar-info {
+            margin-top: auto;
+            font-size: 12px;
+            color: #888;
+            line-height: 1.5;
+        }
+
+        /* Main */
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            padding: 18px 25px;
+            border-bottom: 1px solid #303030;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px 15%;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-top: 15vh;
+        }
+
+        .welcome h1 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+
+        .welcome p {
+            color: #999;
+        }
+
+        .message {
+            margin-bottom: 25px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 14px;
+        }
+
+        .user-avatar {
+            background: #555;
+        }
+
+        .bot-avatar {
+            background: #10a37f;
+        }
+
+        .message-content {
+            max-width: 80%;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .category {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: #303030;
+            color: #aaa;
+            font-size: 11px;
+        }
+
+        /* Input */
+        .input-area {
+            padding: 15px 15%;
+            border-top: 1px solid #303030;
+            background: #212121;
+        }
+
+        .input-box {
+            display: flex;
+            background: #2f2f2f;
+            border: 1px solid #444;
+            border-radius: 12px;
+            padding: 5px;
+        }
+
+        #question {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 12px;
+            font-size: 15px;
+        }
+
+        #question::placeholder {
+            color: #888;
+        }
+
+        #send-btn {
+            background: #10a37f;
+            color: white;
+            border: none;
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        #send-btn:hover {
+            background: #0d8f6f;
+        }
+
+        .suggestions {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .suggestion {
+            background: #2f2f2f;
+            border: 1px solid #444;
+            color: #bbb;
+            padding: 7px 12px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .suggestion:hover {
+            background: #3a3a3a;
+            color: white;
+        }
+
+        @media (max-width: 800px) {
+            .sidebar {
+                display: none;
+            }
+
+            .chat-container,
+            .input-area {
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <div class="logo">
+            🎓 College AI
+        </div>
+
+        <button class="new-chat" onclick="clearChat()">
+            + New Chat
+        </button>
+
+        <div class="sidebar-info">
+            AI-powered college information assistant.<br><br>
+            Ask about admissions, fees, exams, courses, facilities and more.
+        </div>
+
+    </div>
+
+
+    <!-- Main Chat -->
+    <div class="main">
+
+        <div class="header">
+            College Information Assistant
+        </div>
+
+        <div class="chat-container" id="chat-container">
+
+            <div class="welcome" id="welcome">
+                <h1>How can I help you?</h1>
+                <p>Ask me anything about the college.</p>
+            </div>
+
+        </div>
+
+
+        <!-- Input -->
+        <div class="input-area">
+
+            <div class="input-box">
+
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask a question..."
+                    autocomplete="off"
+                >
+
+                <button id="send-btn" onclick="sendMessage()">
+                    ↑
+                </button>
+
+            </div>
+
+
+            <div class="suggestions">
+
+                <button class="suggestion"
+                    onclick="askSuggestion('How can I apply for admission?')">
+                    Admission
+                </button>
+
+                <button class="suggestion"
+                    onclick="askSuggestion('What are the tuition fees?')">
+                    Fees
+                </button>
+
+                <button class="suggestion"
+                    onclick="askSuggestion('When are the semester exams?')">
+                    Exams
+                </button>
+
+                <button class="suggestion"
+                    onclick="askSuggestion('Does the college have a library?')">
+                    Facilities
+                </button>
+
+                <button class="suggestion"
+                    onclick="askSuggestion('What placement opportunities are available?')">
+                    Placements
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<script>
+
+    const input = document.getElementById("question");
+    const chatContainer = document.getElementById("chat-container");
+    const welcome = document.getElementById("welcome");
+
+
+    // Send message when Enter is pressed
+    input.addEventListener("keydown", function(event) {
+
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+
+    });
+
+
+    function askSuggestion(question) {
+
+        input.value = question;
+        sendMessage();
+
+    }
+
+
+    function addMessage(sender, text, category = "") {
+
+        if (welcome) {
+            welcome.style.display = "none";
+        }
+
+        const message = document.createElement("div");
+        message.className = "message";
+
+        const avatar = document.createElement("div");
+        avatar.className = "avatar " +
+            (sender === "You" ? "user-avatar" : "bot-avatar");
+
+        avatar.textContent = sender === "You" ? "You" : "AI";
+
+
+        const content = document.createElement("div");
+        content.className = "message-content";
+
+        content.innerHTML = `
+            <strong>${sender}</strong>
+            <br>
+            ${text}
+            ${category ? `<div class="category">${category}</div>` : ""}
+        `;
+
+
+        message.appendChild(avatar);
+        message.appendChild(content);
+
+        chatContainer.appendChild(message);
+
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+
+    }
+
+
+    async function sendMessage() {
+
+        const question = input.value.trim();
+
+        if (!question) {
+            return;
+        }
+
+        addMessage("You", question);
+
+        input.value = "";
+
+        try {
+
+            const response = await fetch("/chat", {
+
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    question: question
+                })
+
+            });
+
+
+            const data = await response.json();
+
+            addMessage(
+                "College AI",
+                data.answer,
+                data.category
+            );
+
+        }
+
+        catch (error) {
+
+            addMessage(
+                "College AI",
+                "Sorry, something went wrong. Please try again.",
+                "Error"
+            );
+
+        }
+
+    }
+
+
+    async function loadHistory() {
+
+        try {
+
+            const response = await fetch("/history");
+
+            const data = await response.json();
+
+            if (data.history.length > 0) {
+
+                if (welcome) {
+                    welcome.style.display = "none";
+                }
+
+                data.history.forEach(item => {
+
+                    addMessage(
+                        "You",
+                        item.user
+                    );
+
+                    addMessage(
+                        "College AI",
+                        item.bot,
+                        item.category
+                    );
+
+                });
+
+            }
+
+        }
+
+        catch (error) {
+
+            console.log("Could not load conversation history.");
+
+        }
+
+    }
+
+
+    async function clearChat() {
+
+        try {
+
+            await fetch("/clear", {
+                method: "POST"
+            });
+
+            chatContainer.innerHTML = `
+                <div class="welcome" id="welcome">
+                    <h1>How can I help you?</h1>
+                    <p>Ask me anything about the college.</p>
+                </div>
+            `;
+
+        }
+
+        catch (error) {
+
+            console.log("Could not clear conversation.");
+
+        }
+
+    }
+
+
+    // Load previous conversation when page opens
+    loadHistory();
+
+</script>
+
+</body>
+</html>
